@@ -21,7 +21,6 @@ const Main = () => {
         fetch(API)
         .then(res => res.json())
         .then(res => setMovies(res.results))
-       
     }
 
     const handleSubmit = (e) => {
